@@ -1,0 +1,286 @@
+.container{
+	width: 102%;
+	height: 175%;
+	background-color: black;
+	position: absolute; top: -10px; left: -10px;
+}
+.cont{
+	margin: 0px auto;
+	background-color: black;
+	width: 1930px;
+	height: 1000px;
+}
+.cap{
+		position: relative;
+   		height: 100px;
+}
+.logo{
+	position: absolute; left: 200px; top: 30px;
+}
+.font{
+	font-family: Michroma, sans-serif;
+	text-decoration: none;
+	color: white;
+}
+.contentGlav{
+		position: relative;
+   		height: 100px;
+}
+.home{
+	position: absolute; top: 70px; left: 450px;
+	font-size: 35px;
+	
+}
+.serv{
+	position: absolute; top: 80px; left: 700px;
+	font-size: 25px;
+}
+.about{
+	position: absolute; top: 80px; left: 900px;
+	font-size: 25px;
+}
+.contact{
+	position: absolute; top: 71px; left: 1600px;
+	font-size: 35px;
+
+}
+.repairPro{
+	position: absolute; left: 210px; top: 100px;
+}
+.rpText{
+	position: absolute; left: 222px; top: 450px;
+	color: white;
+	font-size: 30px;
+	font-family: "GOST type A", sans-serif;
+}
+.unevers{
+	position: absolute; left: 990px; top: 330px;
+	color: white;
+	transform: rotate(90deg);
+	text-decoration: underline;
+	text-decoration-thickness:1.5px;
+	text-underline-offset: 6px;
+	font-size: 30px;
+	font-family: "GOST type A", sans-serif;
+}
+.unevers-2{
+	position: absolute; left: 950px; top: 325px;
+	color: white;
+	font-family: Michroma, sans-serif;
+	transform: rotate(90deg);
+	text-decoration: underline;
+	text-decoration-thickness:1.5px;
+	text-underline-offset: 6px;
+	font-size: 30px;
+	font-family: "GOST type A", sans-serif;
+}
+.figna{
+	position: absolute; left: 1200px; top: 115px;
+}
+.shapes{
+	position: absolute; left: 1600px; top: 115px;
+}
+.textShapes{
+	position: absolute; left: 1200px; top: 350px;
+	color: white;
+	font-size: 45px;
+	font-family: "GOST type A", sans-serif;
+}
+.firstPicture{
+	position: absolute; left: 220px; top: 600px;
+}
+.secondPicture{
+	position: absolute; left: 800px; top: 600px;
+}
+.thirdPicture{
+	position: absolute; left: 1340px; top: 600px;
+}
+.backPicture{
+	position: absolute; left: 1680px; top: 500px;
+}
+.marbleVector{
+	position: absolute; left: 100px; top: 830px;
+}
+.helpImg{
+	position: absolute; top: 900px; left: 0px;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.double-border-button {
+  position: absolute; top: 700px;  left: 370px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 20px 70px;
+  position: relative;
+  border: 2px solid white;
+  color: white;
+  font-family: 'Michroma', sans-serif;
+  transition: .4s;
+}
+.double-border-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: .4s;
+}
+.double-border-button:hover:after {
+  border-color: white;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
+.heelp{
+	font-family: "GOST type A", sans-serif;
+	font-size: 50px;
+	position: absolute; top: 1000px; left: 270px;
+	color: white;
+}
+.podval{
+	position: absolute; top: 1000px;
+	background-color:black;
+	width: 1930px;
+	height: 600px;
+}
+.rpPodval{
+	position:absolute; top: -50px; right: 400px;
+}
+.marblePodval{
+	position:absolute; top: 500px; right: 0px;
+}
+.backPodval{
+	position:absolute; top: 294px; left: 0px;
+}
+.about2{
+	position: absolute; top: 100px; left: 300px;
+	font-size: 30px;
+}
+.textPodval{
+	position: absolute; top: 160px; left: 300px;
+	color: white;
+	font-size: 25px;
+	font-family: "GOST type A", sans-serif;
+}
+.tel1{
+	text-decoration: none;
+	color: white;
+}
+.map{
+	position: absolute;top: 290px; left: 950px;
+}
+.zapis{
+	position: absolute; top: 220px; left: 950px;
+	color: white;
+	font-size: 40px;
+	font-family: "GOST type A", sans-serif;
+}
+.adres{
+	color: white;
+	font-size: 40px;
+	font-family: "GOST type A", sans-serif;
+}
+.Rectanglev2{
+	position: absolute; top: 600px; left: 1760px;
+}
+.textZapis{
+	font-family: "GOST type A", sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	position: absolute; top: 320px; left: 500px;
+}
+
+
+
+.address {
+	font-family: "GOST type A", sans-serif;
+	color: white;
+	font-size: 30px;
+}
+.line {
+	width: 100%;
+	height: 1px;
+	background-color: white;
+}
+.adres{
+	position: absolute; top: 270px; left: 203px;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+#preloader.hide-preloader {
+    animation: hidePreloader 1s;
+}
+
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hidePreloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+.services {
+	font-family: Arial, sans-serif;
+    color: white;
+    width: 600px; /* Подстройте ширину как вам нужно */
+    position: absolute; top: 280px; left: 650px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+td:nth-child(2) {
+    text-align: right;
+}
+
+/* Цвет и стили заголовка таблицы */
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.Rectangle2{
+	position: absolute; right: 100px; top: 300px;
+}

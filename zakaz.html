@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="shortcut icon" href="logo.png" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Computer Repair Pro</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .form-container {
+    width: 80%;
+    max-width: 600px;
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .form-group {
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .form-header {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .repairPro{
+    position: absolute; top:50px; left: 100px;
+  }
+  .figna{
+    position: absolute; top:200px; right: -200px;
+    transform: rotate(90deg);
+  }
+  .backPodval{
+    position: absolute; top:747px; left:85px;
+    transform: rotate(90deg);
+  }
+  body::-webkit-scrollbar {
+  display: none;
+</style>
+</head>
+<body>
+<img src="figna.png" class="figna" style="width:500px;">
+<img src="Repair Pro.png" style="width:300px;" class="repairPro"></img>
+<img src="Rectangle.png" class="backPodval" style="width:140px;"></img>
+<div class="form-container">
+  <div class="form-header">
+    <h2>Заказать услугу</h2>
+  </div>
+  <form action="/submit_form" method="post">
+    <div class="form-group">
+      <label for="firstName">Имя</label>
+      <input type="text" id="firstName" name="firstName" placeholder="Имя">
+    </div>
+    <div class="form-group">
+      <label for="lastName">Фамилия</label>
+      <input type="text" id="lastName" name="lastName" placeholder="Фамилия">
+    </div>
+    <div class="form-group">
+      <label for="phone">Телефон</label>
+      <input type="text" id="phone" name="phone" placeholder="+7900 000-00-00">
+    </div>
+    <div class="form-group">
+      <label for="email">Электронная почта</label>
+      <input type="email" id="email" name="email" placeholder="Электронная почта">
+    </div>
+    <div class="form-group">
+      <label for="rentalOptions">В какой услуге нуждаетесь?</label>
+      <select id="rentalOptions" name="rentalOptions">
+        <option value="withDriver">Диагностика устройства</option>
+        <option value="withoutDriver">Установка драйверов на компьютер</option>
+        <option>Установка/настройка компьютерных программ</option>
+        <option>Установка/переустановка Windows</option>
+        <option>Чистка компьютера от вирусов</option>
+        <option>Чистка компьютера от пыли</option>
+         <option>Установка/настройка принтера, сканера</option>
+          <option>Замена термопасты на процессоре компьютера</option>
+      </select>
+    </div>
+    <!-- Место для кнопки отправки формы -->
+    <!-- <input type="submit" value="Отправить"> -->
+  </form>
+</div>
+
+</body>
+</html>
